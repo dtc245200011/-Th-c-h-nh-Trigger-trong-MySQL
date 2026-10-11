@@ -1,0 +1,7 @@
+-- SELECT * FROM company.employees;
+id | name           | department  | salary
+---------------------------------------------
+1  | John Doe       | Sales       | 3500.00
+2  | Jane Smith     | Management  | 5200.00
+3  | David Johnson  | Management  | 6000.00
+4  | Alice Brown    | Support     | 2999.99
