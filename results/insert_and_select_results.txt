@@ -1,0 +1,17 @@
+-- Kết quả mẫu sau khi chạy sql/test_triggers.sql
+
+id | name           | department  | salary
+---------------------------------------------
+1  | John Doe       | Sales       | 3500.00
+2  | Jane Smith     | Support     | 2000.00
+3  | David Johnson  | Management  | 6000.00
+
+-- Sau UPDATE Jane Smith salary -> 5200.00
+id | name        | department  | salary
+----------------------------------------
+2  | Jane Smith  | Management  | 5200.00
+
+-- Alice Brown inserted with salary 2999.99
+id | name         | department | salary
+----------------------------------------
+4  | Alice Brown  | Support    | 2999.99
